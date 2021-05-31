@@ -29,7 +29,7 @@ The following new macros:
 
 > rule(macro: allowed_aws_ecr_registry_root_for_eks) \
 > rule(macro: aws_eks_core_images) \
-> rule(macro: aws_eks_image_sensitive_mount) \
+> rule(macro: aws_eks_image_sensitive_mount)
 
 allow AWS EKS images to be used in rule: Launch Privileged Container.
 
@@ -50,7 +50,7 @@ And at last, but not least, another useful update. Flag _--support_ now prints a
 ```json
 "engine_info": {
   "engine_version": 8
-},
+}
 ```
 ---------------------------------------
 
