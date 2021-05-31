@@ -1,6 +1,6 @@
 # FALCO 0.28.1
 
-A new Falco release is now being released! It includes feature improvements, bug fixes and rules updates
+A new Falco release is now being released! It includes feature improvements, bug fixes and rules updates.
 
 [Here](https://github.com/falcosecurity/falco/releases/tag/0.28.1) you have the details but below you can find the most interesting highlights. 
 
@@ -45,13 +45,13 @@ These macros are deprecated and will be no longer supported:
 
 ## Bug fixes
 
-Our community is great! We appreciate your contributions [reporting issues](https://github.com/falcosecurity/falco/issues/new) or by reaching out the OSS team if #falco channel on our [Slack](https://slack.sysdig.com/).
+Our community is great! We appreciate your contributions [reporting issues](https://github.com/falcosecurity/falco/issues/new) or by reaching out the OSS team in #falco channel on our [Slack](https://slack.sysdig.com/).
 
 In this release, [an issue reported](https://github.com/falcosecurity/falco/issues/1575) few weeks ago was fixed. Now, when some invalid data arrived to Falco, the webserver for Kubernetes doesn't stop.
 
 ## Support
 
-And at last, but not least, another useful update. Flag _--support_ now prints also information about the falco engine version. 
+And at last, but not least, another useful update. Flag _\-\-support_ now prints also information about the falco engine version. 
 
 ```json
 "engine_info": {
@@ -62,4 +62,6 @@ And at last, but not least, another useful update. Flag _--support_ now prints a
 
 If you've liked our new features, remember to [subscribe to our newsletters](https://sysdig.com/newsletters/) and join or [Falco mailing list](https://lists.cncf.io/g/cncf-falco-dev).
 
-As always, you can report any bugs found [by opening an issue](https://github.com/falcosecurity/falco/issues/new).
+Cheers!
+
+Pilar
