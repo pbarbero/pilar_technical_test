@@ -23,7 +23,7 @@ The alert will be sent with DEBUG priority and the message would be:
 Debug Falco internal: timeouts notification. 1000 consecutive timeouts without event.
 ```
 
-## Rule changes
+## Rules changes
 
 The following new macros:
 
@@ -43,6 +43,12 @@ These macros are deprecated and will be no longer supported:
 > rule(macro: python_running_sdchecks) \
 > rule(Change thread namespace)
 
+## Bug fixes
+
+Our community is great! We appreciate your contributions [reporting issues](https://github.com/falcosecurity/falco/issues/new) or by reaching out the OSS team if #falco channel on our [Slack](https://slack.sysdig.com/).
+
+In this release, [an issue reported](https://github.com/falcosecurity/falco/issues/1575) few weeks ago was fixed. Now, when some invalid data arrived to Falco, the webserver for Kubernetes doesn't stop.
+
 ## Support
 
 And at last, but not least, another useful update. Flag _--support_ now prints also information about the falco engine version. 
@@ -54,6 +60,6 @@ And at last, but not least, another useful update. Flag _--support_ now prints a
 ```
 ---------------------------------------
 
-If you've liked our new features, remember to [subscribe to our newsletters](https://sysdig.com/newsletters/).
+If you've liked our new features, remember to [subscribe to our newsletters](https://sysdig.com/newsletters/) and join or [Falco mailing list](https://lists.cncf.io/g/cncf-falco-dev).
 
 As always, you can report any bugs found [by opening an issue](https://github.com/falcosecurity/falco/issues/new).
